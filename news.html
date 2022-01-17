@@ -54,14 +54,14 @@
 
   const log = (event)=> {
     if(event.key=='Enter'){
-      let searchv = document.getElementById('search').value;
+      let searchv = document.getElementById('searchbar').value;
       console.log(searchv);
       localStorage.setItem('search_term',JSON.stringify(searchv))
       window.location.href = './search.html';
     }
 
   }
-  let value = document.getElementById('search');
+  let value = document.getElementById('searchbar');
   value.addEventListener('keypress',log);
   
 </script>

@@ -2,7 +2,7 @@ function sidebar() {
     return `
     <a class="side_h3tag" href="./index.html"><h3>Techcrunch</h3></a>
         <p class="side_ptag">login</p>
-        <input id="search" type="text" placeholder="Search">
+        <input id="searchbar" type="text" placeholder="Search News">
         <p class="side_ptag">startups</p>
         <p class="side_ptag">Newsletters</p>
         <p class="side_ptag">Audio</p>

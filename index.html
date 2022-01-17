@@ -48,7 +48,7 @@ let top = 'https://gnews.io/api/v4/top-headlines?token=36a5513caab2ce017a2c111d1
 
   const log = (event)=> {
     if(event.key=='Enter'){
-      let searchv = document.getElementById('search').value;
+      let searchv = document.getElementById('searchbar').value;
       console.log(searchv);
       localStorage.setItem('search_term',JSON.stringify(searchv))
       window.location.href = './search.html';
@@ -56,7 +56,7 @@ let top = 'https://gnews.io/api/v4/top-headlines?token=36a5513caab2ce017a2c111d1
 
   }
 
-  let value = document.getElementById('search');
+  let value = document.getElementById('searchbar');
   value.addEventListener('keypress',log)
   
 
