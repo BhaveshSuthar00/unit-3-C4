@@ -1,0 +1,46 @@
+#container {
+    display: flex;
+}
+#sidebar {
+    flex: 1.5;
+    border-right: 1px solid black;
+}
+.side_h3tag {
+    text-decoration: none;
+    color: black;
+  }
+#main {
+    display: inline-block;
+    flex: 8;
+    margin-left: 1%;
+}
+#headline {
+    width: 80%;
+    color: cornsilk;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img {
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+    height: 300px;
+    width: 600px;
+}
+#content {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 23px;
+    text-align: left;
+}
+#container {
+    background-image: linear-gradient(gray,white,rgb(0, 140, 255));
+}
+body {
+    background-color: rgb(220, 245, 255);
+}
