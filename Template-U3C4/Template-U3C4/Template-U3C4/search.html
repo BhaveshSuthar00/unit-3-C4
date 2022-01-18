@@ -37,7 +37,7 @@
       
       try {
         let main = document.getElementById('main');
-        let response = await apiCall(`https://gnews.io/api/v4/search?q=${searchName}&token=36a5513caab2ce017a2c111d161b72db&lang=en`);
+        let response = await apiCall(`https://gnews.io/api/v4/search?q=${searchName}&token=b5c97f777e0069cd69e6f33de8e9b30d&lang=en`);
         let data = response.articles;
         console.log(data)
         let display = await appendArticles(data,main);
